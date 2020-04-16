@@ -39,12 +39,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
         PRODUCT_NAME="lavender" \
-	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V11.0.4.0.PFGMIXM release-keys"
-
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.021/4565141:user/release-keys"
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys"
 
 # Device identifier
 PRODUCT_NAME := aosip_lavender
