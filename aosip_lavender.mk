@@ -35,12 +35,6 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Build Fingerprint
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        TARGET_DEVICE="lavender" \
-        PRODUCT_NAME="lavender" \
-	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys"
-
 # Device identifier
 PRODUCT_NAME := aosip_lavender
 PRODUCT_MANUFACTURER := Xiaomi
@@ -48,6 +42,14 @@ PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
+
+# Build Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     TARGET_DEVICE="lavender" \
+     PRODUCT_NAME="lavender" \
+     PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys"
+
+BUILD_FINGERPRINT := "google/crosshatch/crosshatch:10/QQ2A.200405.005/6254899:user/release-keys"
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
 
