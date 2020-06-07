@@ -49,7 +49,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME="lavender" \
      PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys"
 
-BUILD_FINGERPRINT := "google/crosshatch/crosshatch:10/QQ2A.200501.001.A3/6353761:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
 
